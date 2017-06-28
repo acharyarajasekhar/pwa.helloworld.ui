@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SvnArticles</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.d27cc8485bdd009196d4.bundle.css" rel="stylesheet"/></head>
+<body>
+  <app-root>
+    <app-root>
+      <div style="
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: center;">Loading...
+      </div>
+  </app-root>
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+        console.log('Service Worker registered');
+      }).catch(function(err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+    }
+  </script>
+<script type="text/javascript" src="inline.27fd8e12e9cfc998ee32.bundle.js"></script><script type="text/javascript" src="polyfills.652ef966ac5414a711ed.bundle.js"></script><script type="text/javascript" src="vendor.029e6de9a5ffc6709a92.bundle.js"></script><script type="text/javascript" src="main.ed6fb0b9652f3607a31a.bundle.js"></script></body>
+</html>
