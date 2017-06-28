@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/index.html","f6b021bc722901d1363d30e573fa604a"],["/inline.27fd8e12e9cfc998ee32.bundle.js","8b8cd928084136ac4833177742c7049a"],["/main.ed6fb0b9652f3607a31a.bundle.js","eed1bb47677457f83318c98440da9c4d"],["/polyfills.652ef966ac5414a711ed.bundle.js","872d944e548d9de7ccd96f8e22e175f0"],["/styles.d27cc8485bdd009196d4.bundle.css","d27cc8485bdd009196d41ba5047e8364"],["/vendor.029e6de9a5ffc6709a92.bundle.js","053c9ca056f837939e45557eff955d25"]];
+var precacheConfig = [["/favicon.ico","b9aa7c338693424aae99599bec875b5f"],["/index.html","874649b19151afb6609abfc76ab1f21d"],["/inline.27fd8e12e9cfc998ee32.bundle.js","8b8cd928084136ac4833177742c7049a"],["/main.ed6fb0b9652f3607a31a.bundle.js","eed1bb47677457f83318c98440da9c4d"],["/polyfills.652ef966ac5414a711ed.bundle.js","872d944e548d9de7ccd96f8e22e175f0"],["/styles.d27cc8485bdd009196d4.bundle.css","d27cc8485bdd009196d41ba5047e8364"],["/vendor.029e6de9a5ffc6709a92.bundle.js","053c9ca056f837939e45557eff955d25"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
